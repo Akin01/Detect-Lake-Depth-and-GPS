@@ -1,4 +1,4 @@
-from utils import convert_to_degrees
+from .utils import convert_to_degrees
 
 
 def get_lat_long(nmea_buffer: list) -> tuple:
